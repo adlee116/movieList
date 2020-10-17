@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:paddingBottom="12dp"
+    android:background="@drawable/curved_background">
+
+<!--    Really would like to extract some of the style attr out and introduce styles-->
+
+    <ImageView
+        android:id="@+id/movieImage"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/movieTitleText"
+        android:layout_width="0dp"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toRightOf="@id/movieImage"
+        app:layout_constraintTop_toTopOf="@id/movieImage"
+        tools:text="Movie title"
+        android:layout_marginStart="12dp" />
+    
+    <TextView
+        android:id="@+id/releaseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/release_date"
+        app:layout_constraintLeft_toLeftOf="@id/movieTitleText"
+        app:layout_constraintTop_toBottomOf="@id/movieTitleText"/>
+
+    <TextView
+        android:id="@+id/releaseDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/movieTitleText"
+        app:layout_constraintLeft_toRightOf="@id/releaseText"
+        tools:text="19/09/1988"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="@id/voteAverage"
+        app:layout_constraintLeft_toLeftOf="@id/voteAverage"
+        android:textColor="@color/black"
+        android:text="@string/rating"
+        app:layout_constraintBottom_toTopOf="@id/voteAverage"/>
+
+    <TextView
+        android:id="@+id/voteAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textColor="@color/black"
+        android:layout_marginRight="12dp"
+        android:textSize="24sp"
+        tools:text="4.5/5"
+        android:layout_marginEnd="12dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

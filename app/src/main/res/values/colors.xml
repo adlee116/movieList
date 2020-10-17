@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="black">#000000</color>
+    <color name="grey_20">#333333</color>
+    <color name="grey_30">#4d4d4d</color>
+    <color name="grey_45">#737373</color>
+    <color name="grey_50">#808080</color>
+    <color name="grey_90">#e6e6e6</color>
+    <color name="white">#ffffff</color>
+    <color name="purple_dark">#511466</color>
+    <color name="purple_light">#f6d9ff</color>
+    <color name="light_pink">#f9edff</color>
+    <color name="purple_vivid">#d03fff</color>
+    <color name="purple_5">#b02cf7</color>
+    <color name="purple_2">#6d1b98</color>
+    <color name="purple_1">#58167a</color>
+    <color name="purple">#733089</color>
+    <color name="purple_8">#D78FFF</color>
+    <color name="purple_10">#f1d6ff</color>
+    <color name="grey_65">#a6a6a6</color>
+    <color name="grey_80">#cccccc</color>
+    <color name="grey_85">#d9d9d9</color>
+    <color name="grey_75">#bfbfbf</color>
+    <color name="grey_70">#b3b3b3</color>
+    <color name="medication_red">#f26d6d</color>
+    <color name="blue_light">#5ca8e5</color>
+    <color name="blue_lighter">#a3d6ff</color>
+    <color name="amber">#4d3300</color>
+    <color name="blue">#3700B3</color>
+    <color name="yellow">#FFFF00</color>
+</resources>
